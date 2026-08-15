@@ -95,17 +95,6 @@
     });
   }
 
-  // Feed do Instagram: se o widget ainda não foi configurado
-  // (SEU-WIDGET-ID não foi substituído), mostra a grade de exemplo.
-  var igWidget = document.getElementById('igWidget');
-  var igPlaceholder = document.getElementById('igPlaceholder');
-  if (igWidget && igPlaceholder) {
-    if (igWidget.src.indexOf('SEU-WIDGET-ID') !== -1) {
-      igWidget.style.display = 'none';
-      igPlaceholder.style.display = 'flex';
-    }
-  }
-
   // Marca o link ativo do menu conforme a seção visível
   var sections = document.querySelectorAll('section[id]');
   var navLinks = document.querySelectorAll('.nav-link');
@@ -122,4 +111,5 @@
     }, { rootMargin: '-40% 0px -55% 0px' });
     sections.forEach(function (s) { observer.observe(s); });
   }
+
 })();

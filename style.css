@@ -383,13 +383,7 @@ a { color: inherit; text-decoration: none; }
   flex-wrap: wrap;
 }
 
-.ig-widget-wrap { position: relative; min-height: 200px; }
-
-.ig-widget {
-  width: 100%;
-  border: none;
-  min-height: 640px;
-}
+.ig-widget-wrap { position: relative; min-height: 120px; }
 
 /* Placeholder grid shown until a real widget ID is configured */
 .ig-placeholder {
