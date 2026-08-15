@@ -43,13 +43,21 @@
 <!-- ===================== HERO ===================== -->
 <section class="hero" id="hero">
 
-  <!-- Imagem de fundo provisória — troque por uma foto real do estúdio -->
+  <!-- Vídeo de fundo com poster + carregamento leve. -->
   <div class="hero-media">
-    <img
-      class="hero-bg-image"
-      src="assets/hero-bg-placeholder.jpg"
-      alt=""
+    <video
+      class="hero-bg-video"
+      poster="assets/hero-bg-placeholder.jpg"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="none"
       aria-hidden="true">
+      <!-- Coloque seu vídeo comprimido aqui, com esse nome exato -->
+      <source src="assets/hero-video.mp4" type="video/mp4">
+      <source src="assets/hero-video.webm" type="video/webm">
+    </video>
     <div class="hero-overlay"></div>
   </div>
 
