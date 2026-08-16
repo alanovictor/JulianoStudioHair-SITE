@@ -28,7 +28,7 @@ This project was developed with the following technologies:<br>
 ## 💻 Project-Projeto
 
 É uma página web, criado para a empresa Juliano Studio Hair.<br>
-It is a web page that shows the weather and time of a specific location.
+It is a webpage created for the company Juliano Studio Hair.
 
 - [Access the finished project online](https://alanovictor.github.io/JulianoStudioHair-SITE/)<br>
 - [Acesse o projeto finalizado online](https://alanovictor.github.io/JulianoStudioHair-SITE/)
