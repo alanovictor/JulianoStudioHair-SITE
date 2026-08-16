@@ -30,8 +30,8 @@ This project was developed with the following technologies:<br>
 É uma página web, criado para a empresa Juliano Studio Hair.<br>
 It is a web page that shows the weather and time of a specific location.
 
-- [Access the finished project online](#)<br>
-- [Acesse o projeto finalizado online](#)
+- [Access the finished project online](https://alanovictor.github.io/JulianoStudioHair-SITE/)<br>
+- [Acesse o projeto finalizado online](https://alanovictor.github.io/JulianoStudioHair-SITE/)
 
 
 ## :memo: License-Licença
